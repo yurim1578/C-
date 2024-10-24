@@ -1,0 +1,7 @@
+C:\YR.C\학습자료\시작하세요!C#_TEST\EventHandlerTest1\EventHandlerTest2\bin\Debug\EventHandlerTest2.exe.config
+C:\YR.C\학습자료\시작하세요!C#_TEST\EventHandlerTest1\EventHandlerTest2\bin\Debug\EventHandlerTest2.exe
+C:\YR.C\학습자료\시작하세요!C#_TEST\EventHandlerTest1\EventHandlerTest2\bin\Debug\EventHandlerTest2.pdb
+C:\YR.C\학습자료\시작하세요!C#_TEST\EventHandlerTest1\EventHandlerTest2\obj\Debug\EventHandlerTest2.csproj.AssemblyReference.cache
+C:\YR.C\학습자료\시작하세요!C#_TEST\EventHandlerTest1\EventHandlerTest2\obj\Debug\EventHandlerTest2.csproj.CoreCompileInputs.cache
+C:\YR.C\학습자료\시작하세요!C#_TEST\EventHandlerTest1\EventHandlerTest2\obj\Debug\EventHandlerTest2.exe
+C:\YR.C\학습자료\시작하세요!C#_TEST\EventHandlerTest1\EventHandlerTest2\obj\Debug\EventHandlerTest2.pdb

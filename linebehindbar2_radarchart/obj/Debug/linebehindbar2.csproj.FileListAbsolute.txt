@@ -1,0 +1,11 @@
+C:\Users\bookp\source\repos\linebehindbar2\bin\Debug\linebehindbar2.exe
+C:\Users\bookp\source\repos\linebehindbar2\bin\Debug\linebehindbar2.pdb
+C:\Users\bookp\source\repos\linebehindbar2\obj\Debug\linebehindbar2.csproj.AssemblyReference.cache
+C:\Users\bookp\source\repos\linebehindbar2\obj\Debug\linebehindbar2.Form1.resources
+C:\Users\bookp\source\repos\linebehindbar2\obj\Debug\linebehindbar2.Properties.Resources.resources
+C:\Users\bookp\source\repos\linebehindbar2\obj\Debug\linebehindbar2.csproj.GenerateResource.cache
+C:\Users\bookp\source\repos\linebehindbar2\obj\Debug\linebehindbar2.exe.licenses
+C:\Users\bookp\source\repos\linebehindbar2\obj\Debug\linebehindbar2.csproj.CoreCompileInputs.cache
+C:\Users\bookp\source\repos\linebehindbar2\obj\Debug\linebehindbar2.exe
+C:\Users\bookp\source\repos\linebehindbar2\obj\Debug\linebehindbar2.pdb
+C:\Users\bookp\source\repos\linebehindbar2\obj\Debug\linebehindbar2.Form2.resources

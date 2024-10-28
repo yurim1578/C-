@@ -46,7 +46,7 @@ namespace BrityEmail
 
             string mailJson = JsonConvert.SerializeObject(mailData);
 
-
+            //body
             string formData = $"--{boundary}\r\n" +
                               "Content-Disposition: form-data; name=\"mail\"\r\n\r\n" +
                               mailJson + "\r\n" +

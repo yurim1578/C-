@@ -1,0 +1,9 @@
+C:\Users\bookp\source\repos\C-\BrityEmail\bin\Debug\BrityEmail.exe
+C:\Users\bookp\source\repos\C-\BrityEmail\bin\Debug\BrityEmail.pdb
+C:\Users\bookp\source\repos\C-\BrityEmail\obj\Debug\BrityEmail.csproj.AssemblyReference.cache
+C:\Users\bookp\source\repos\C-\BrityEmail\obj\Debug\BrityEmail.csproj.CoreCompileInputs.cache
+C:\Users\bookp\source\repos\C-\BrityEmail\obj\Debug\BrityEmail.exe
+C:\Users\bookp\source\repos\C-\BrityEmail\obj\Debug\BrityEmail.pdb
+C:\Users\bookp\source\repos\C-\BrityEmail\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bookp\source\repos\C-\BrityEmail\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bookp\source\repos\C-\BrityEmail\obj\Debug\BrityEmail.csproj.Up2Date

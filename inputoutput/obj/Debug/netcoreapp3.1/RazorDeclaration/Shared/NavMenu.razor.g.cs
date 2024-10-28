@@ -64,6 +64,12 @@ using inputoutput
 #line 9 "C:\Users\bookp\source\repos\C-\inputoutput\_Imports.razor"
 using inputoutput.Shared
 
+#nullable disable
+    ;
+#nullable restore
+#line 11 "C:\Users\bookp\source\repos\C-\inputoutput\_Imports.razor"
+using inputoutput.Models
+
 #line default
 #line hidden
 #nullable disable
@@ -78,7 +84,7 @@ using inputoutput.Shared
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\bookp\source\repos\C-\inputoutput\Shared\NavMenu.razor"
+#line 33 "C:\Users\bookp\source\repos\C-\inputoutput\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

@@ -64,6 +64,12 @@ namespace inputoutput
 #line 9 "C:\Users\bookp\source\repos\C-\inputoutput\_Imports.razor"
  using inputoutput.Shared
 
+#nullable disable
+    ;
+#nullable restore
+#line 11 "C:\Users\bookp\source\repos\C-\inputoutput\_Imports.razor"
+ using inputoutput.Models
+
 #line default
 #line hidden
 #nullable disable

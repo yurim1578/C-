@@ -67,6 +67,12 @@ using inputoutput.Shared
 #nullable disable
     ;
 #nullable restore
+#line 11 "C:\Users\bookp\source\repos\C-\inputoutput\_Imports.razor"
+using inputoutput.Models
+
+#nullable disable
+    ;
+#nullable restore
 #line 3 "C:\Users\bookp\source\repos\C-\inputoutput\Pages\FetchData.razor"
  using inputoutput.Data
 

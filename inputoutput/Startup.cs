@@ -1,5 +1,6 @@
 using inputoutput.Areas.Identity;
 using inputoutput.Data;
+using inputoutput.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
@@ -40,6 +41,8 @@ namespace inputoutput
             services.AddServerSideBlazor();
             services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
             services.AddSingleton<WeatherForecastService>();
+
+            services.AddTransient<IIdeaRepository, Idearepository>(); //서비스 주입
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

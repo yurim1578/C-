@@ -1,0 +1,29 @@
+﻿@inject IJSRuntime js
+<h3>FrmChild</h3>
+
+부모에서 전달된 값 :  @FromParent
+<input type="button" value="자식에서 호출" @onclick="btnChildClick" />
+
+@code {
+    [Parameter] 
+    public int FromParent { get; set; }
+
+    [Parameter]
+    public Action OnParentCall { get; set; } //참조
+
+    [Parameter]
+    public Action<int> PageIndexChangedChild { get; set; }
+
+    protected void btnChildClick()
+    {
+        js.InvokeAsync<object>("alert", "btnChildClick호출됨");
+        OnParentCall?.Invoke(); //부모에서 전송된 메서드 호출
+    }
+
+    protected void PagerButtonClicked(int pagenumber)
+    {
+        PageIndexChangedChild?.Invoke(pagenumber - 1);
+    }
+}
+<input type="button" value="1페이지" @onclick="@(()=>PagerButtonClicked(1))"/>
+<input type="button" value="2페이지" @onclick="@(()=>PagerButtonClicked(2))" />

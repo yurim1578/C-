@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bookp\\source\\repos\\C-\\BlazorApp5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{975DE15F-E4AC-40D5-8F79-BEC58E246836}|BlazorApp5.csproj|c:\\users\\bookp\\source\\repos\\c-\\blazorapp5\\pages\\demos\\blasorform\\blazorform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{975DE15F-E4AC-40D5-8F79-BEC58E246836}|BlazorApp5.csproj|solutionrelative:pages\\demos\\blasorform\\blazorform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975DE15F-E4AC-40D5-8F79-BEC58E246836}|BlazorApp5.csproj|c:\\users\\bookp\\source\\repos\\c-\\blazorapp5\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{975DE15F-E4AC-40D5-8F79-BEC58E246836}|BlazorApp5.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975DE15F-E4AC-40D5-8F79-BEC58E246836}|BlazorApp5.csproj|c:\\users\\bookp\\source\\repos\\c-\\blazorapp5\\models\\examplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{975DE15F-E4AC-40D5-8F79-BEC58E246836}|BlazorApp5.csproj|solutionrelative:models\\examplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975DE15F-E4AC-40D5-8F79-BEC58E246836}|BlazorApp5.csproj|c:\\users\\bookp\\source\\repos\\c-\\blazorapp5\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{975DE15F-E4AC-40D5-8F79-BEC58E246836}|BlazorApp5.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\bookp\\source\\repos\\C-\\BlazorApp5\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "C:\\Users\\bookp\\source\\repos\\C-\\BlazorApp5\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T05:10:57.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExampleModel.cs",
+              "DocumentMoniker": "C:\\Users\\bookp\\source\\repos\\C-\\BlazorApp5\\Models\\ExampleModel.cs",
+              "RelativeDocumentMoniker": "Models\\ExampleModel.cs",
+              "ToolTip": "C:\\Users\\bookp\\source\\repos\\C-\\BlazorApp5\\Models\\ExampleModel.cs",
+              "RelativeToolTip": "Models\\ExampleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T05:07:39.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\bookp\\source\\repos\\C-\\BlazorApp5\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\bookp\\source\\repos\\C-\\BlazorApp5\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T05:06:13.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlazorForm.razor",
+              "DocumentMoniker": "C:\\Users\\bookp\\source\\repos\\C-\\BlazorApp5\\Pages\\Demos\\BlasorForm\\BlazorForm.razor",
+              "RelativeDocumentMoniker": "Pages\\Demos\\BlasorForm\\BlazorForm.razor",
+              "ToolTip": "C:\\Users\\bookp\\source\\repos\\C-\\BlazorApp5\\Pages\\Demos\\BlasorForm\\BlazorForm.razor",
+              "RelativeToolTip": "Pages\\Demos\\BlasorForm\\BlazorForm.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T05:05:56.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

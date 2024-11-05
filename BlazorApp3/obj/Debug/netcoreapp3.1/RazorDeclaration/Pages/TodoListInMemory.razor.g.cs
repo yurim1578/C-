@@ -105,7 +105,7 @@ using BlazorAppModels
         todos.Add(new TodoItem { id=1, Title="할일1" , IsDone=true});
     }
 
-    void Save()
+    protected void Save()
     {
         todos.Add(new TodoItem { Title = newTodo });
         newTodo = null;

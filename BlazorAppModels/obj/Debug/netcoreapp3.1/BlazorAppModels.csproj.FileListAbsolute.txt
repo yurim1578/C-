@@ -1,0 +1,10 @@
+C:\Users\bookp\source\repos\C-\BlazorAppModels\bin\Debug\netcoreapp3.1\BlazorAppModels.deps.json
+C:\Users\bookp\source\repos\C-\BlazorAppModels\bin\Debug\netcoreapp3.1\BlazorAppModels.dll
+C:\Users\bookp\source\repos\C-\BlazorAppModels\bin\Debug\netcoreapp3.1\BlazorAppModels.pdb
+C:\Users\bookp\source\repos\C-\BlazorAppModels\obj\Debug\netcoreapp3.1\BlazorAppModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bookp\source\repos\C-\BlazorAppModels\obj\Debug\netcoreapp3.1\BlazorAppModels.AssemblyInfoInputs.cache
+C:\Users\bookp\source\repos\C-\BlazorAppModels\obj\Debug\netcoreapp3.1\BlazorAppModels.AssemblyInfo.cs
+C:\Users\bookp\source\repos\C-\BlazorAppModels\obj\Debug\netcoreapp3.1\BlazorAppModels.csproj.CoreCompileInputs.cache
+C:\Users\bookp\source\repos\C-\BlazorAppModels\obj\Debug\netcoreapp3.1\BlazorAppModels.sourcelink.json
+C:\Users\bookp\source\repos\C-\BlazorAppModels\obj\Debug\netcoreapp3.1\BlazorAppModels.dll
+C:\Users\bookp\source\repos\C-\BlazorAppModels\obj\Debug\netcoreapp3.1\BlazorAppModels.pdb

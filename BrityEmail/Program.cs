@@ -6,8 +6,10 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Reflection.Emit;
+using System.Security.AccessControl;
 using System.Security.Permissions;
 using System.Text;
+using System.Xml;
 
 namespace BrityEmail
 {
@@ -15,9 +17,9 @@ namespace BrityEmail
     {
         static void Main(string[] args)
         {
-            string systemId = " "; // 시스템 아이디를 설정합니다.
-            string accessToken = " "; // 접근 토큰을 설정합니다.
-            string userId = "yurim.choi@britymail.com"; // 사용자 아이디를 설정합니다.
+            string systemId = "T53REST00001"; // 시스템 아이디를 설정합니다.
+            string accessToken = "a3edf2df-f0a3-3f08-b47c-80777fbb9984"; // 접근 토큰을 설정합니다.
+            string userId = "asdf@britymail.com"; // 사용자 아이디를 설정합니다.
             string url = $"https://openapi.britymail.com/mail/api/v2.0/mails/send?userId={userId}";
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
@@ -38,7 +40,7 @@ namespace BrityEmail
                 {
                 new Recipient
                 {
-                    emailAddress = "yurim.choi@bizentro.com",
+                    emailAddress = "bookperi@naver.com",
                     recipientType = "TO"
                 }
             }
@@ -84,13 +86,33 @@ namespace BrityEmail
                     using (WebResponse response = ex.Response)
                     {
                         HttpWebResponse httpResponse = (HttpWebResponse)response;
-                        Console.WriteLine("Error code: " + httpResponse.StatusCode);
-                        using (Stream data = response.GetResponseStream())
-                        using (var reader = new StreamReader(data))
+                        if (httpResponse.StatusCode == HttpStatusCode.InternalServerError)
                         {
-                            string text = reader.ReadToEnd();
-                            Console.WriteLine(text);
+                            Console.WriteLine(httpResponse.StatusCode);
+                            return;
                         }
+                        Console.WriteLine("[Error code] : " + httpResponse.StatusCode);
+                        using (Stream data = response.GetResponseStream())
+                        {
+                            using (var reader = new StreamReader(data))
+                            {
+                                string text = reader.ReadToEnd();
+                                XmlDocument xmlDoc = new XmlDocument();
+                                xmlDoc.LoadXml(text);
+
+                                XmlNamespaceManager nsManager = new XmlNamespaceManager(xmlDoc.NameTable);
+                                nsManager.AddNamespace("ams", "http://wso2.org/apimanager/security");
+
+                                // XPath를 사용하여 <ams:message> 노드를 찾습니다.
+                                XmlNode messageNode = xmlDoc.SelectSingleNode("//ams:message", nsManager);
+
+                                // 결과 저장
+                                string message = messageNode != null ? messageNode.InnerText : "메시지를 찾을 수 없습니다.";
+
+                                Console.WriteLine(message);
+                            }
+                        }
+                       
                     }
                 }
                 else

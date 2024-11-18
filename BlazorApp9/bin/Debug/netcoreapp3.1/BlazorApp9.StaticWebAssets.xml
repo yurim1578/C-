@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/Identity" Path="C:\Users\bookp\.nuget\packages\microsoft.aspnetcore.identity.ui\3.1.32\staticwebassets\V4\" />
+  <ContentRoot BasePath="_content/ChartJs.Blazor.Fork" Path="C:\Users\bookp\.nuget\packages\chartjs.blazor.fork\2.0.2\build\..\staticwebassets\" />
+</StaticWebAssets>

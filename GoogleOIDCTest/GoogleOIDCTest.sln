@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleOIDCTest", "GoogleOIDCTest.csproj", "{0D5DE2A8-DDB8-42C6-A50C-EAE2FB5A6A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleOAuthExpProject", "..\GoogleOAuthExpProject\GoogleOAuthExpProject.csproj", "{75E52A4E-739E-4998-8568-E35B31C5B3D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D5DE2A8-DDB8-42C6-A50C-EAE2FB5A6A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5DE2A8-DDB8-42C6-A50C-EAE2FB5A6A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5DE2A8-DDB8-42C6-A50C-EAE2FB5A6A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5DE2A8-DDB8-42C6-A50C-EAE2FB5A6A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E52A4E-739E-4998-8568-E35B31C5B3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E52A4E-739E-4998-8568-E35B31C5B3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E52A4E-739E-4998-8568-E35B31C5B3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E52A4E-739E-4998-8568-E35B31C5B3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BAA431C-794C-48CF-9391-28A7CB3ADE6B}
+	EndGlobalSection
+EndGlobal
